@@ -114,7 +114,6 @@ $(function () {
          * by the loadFeed function that the content actually changes.
          * Remember, loadFeed() is asynchronous.
          */
-
         var firstFeedFirstEntryName, secondFeedFirstEntryName;
         beforeEach(function (done) {
             loadFeed(0);
